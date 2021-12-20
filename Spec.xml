@@ -1,0 +1,49 @@
+<ISSPECS>
+    <DESCRIPTION>
+        <TITLE>Название приложения</TITLE>
+        <SUBJ>Pyhton, REST, QA, Development, ORM,peewee,cherrypy</SUBJ>
+    </DESCRIPTION>
+    <DATA>
+        <ENTITY ent_id="...">
+            <PROPERTY>...</PROPERTY>
+            <PROPERTY>...</PROPERTY>
+            <PROPERTY>...</PROPERTY>
+            <PROPERTY>...</PROPERTY>
+        </ENTITY>
+        <ENTITY ent_id="Ticket">
+            <PROPERTY>...</PROPERTY>
+            <PROPERTY>...</PROPERTY>
+            <PROPERTY>...</PROPERTY>
+        </ENTITY>
+        <RELATIONSHIPS ent_ids=".... ScriptEntity">
+            <PROPERTY>MANY TO ONE</PROPERTY>
+        </RELATIONSHIPS>
+        <CONSTRAINT>Между таблицами ... и .... построено отношение многие к одному
+        </CONSTRAINT>
+        <CONSTRAINT>
+        </CONSTRAINT>
+        <CONSTRAINT>
+        </CONSTRAINT>
+    </DATA>
+    <ROLES>
+        <ROLE>
+            <TITLE>User</TITLE>
+            <RESPOSIBILITY>...</RESPOSIBILITY>
+            <TOTALUSERS>NOT LIMITED</TOTALUSERS>
+        </ROLE>
+    </ROLES>
+    <TECHSPEC>
+        <TYPE>Clean Architecture</TYPE>
+        <DEVTOOLS>
+            <DEV>Python</DEV>
+            <DEV>Peewee ORM</DEV>
+            <DEV>Cherrypy</DEV>
+        </DEVTOOLS>
+        <DBMS>
+            <TITLE>PostgreSQL</TITLE>
+            <VERSION>14.1</VERSION>
+            <REASONING>PostgreSQL - ...
+            </REASONING>
+        </DBMS>
+    </TECHSPEC>
+</ISSPECS>
