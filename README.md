@@ -2,11 +2,11 @@
 
 
 ## Описание, согласно критериям
-1. Наличие ТЗ:
+1. Наличие ТЗ: https://github.com/9lebz/DB_project/blob/main/ТЗ.docx
 2. ТЗ, оформленное в XML, корректное относительно DTD: https://github.com/9lebz/DB_project/blob/main/Spec.xml
 3. ER диаграмма модели предметной области: https://github.com/9lebz/DB_project/blob/main/ER-diagrams/ER-Schema.png
 4. Тестовые данные: src/main/sql/project1.sql
-5. Инструкция по использованию находится в ТЗ. Краткое руководство можно прочитать ниже
+5. Инструкция по использованию находится в ТЗ. Полное описание можно прочитать ниже.
 6. Транзакции отсутствуют
 
 
