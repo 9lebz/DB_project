@@ -1,7 +1,7 @@
 <ISSPECS>
     <DESCRIPTION>
         <TITLE>Nskgortrans</TITLE>
-        <SUBJ>Pyhton, REST, QA, Development, ORM,peewee,cherrypy</SUBJ>
+        <SUBJ>Python, REST, QA, Development, ORM,peewee,cherrypy</SUBJ>
     </DESCRIPTION>
     <DATA>
         <ENTITY ent_id="Model">
