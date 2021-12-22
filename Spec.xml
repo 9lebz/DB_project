@@ -106,25 +106,15 @@
             <PROPERTY>date</PROPERTY>
             <PROPERTY>use_count</PROPERTY>
         </ENTITY>
-        <RELATIONSHIPS ent_ids=".... ScriptEntity">
-            <PROPERTY>MANY TO ONE</PROPERTY>
-        </RELATIONSHIPS>
-        <CONSTRAINT>Между таблицами ... и .... построено отношение многие к одному
-        </CONSTRAINT>
-        <CONSTRAINT>
-        </CONSTRAINT>
-        <CONSTRAINT>
-        </CONSTRAINT>
     </DATA>
     <ROLES>
         <ROLE>
             <TITLE>User</TITLE>
-            <RESPOSIBILITY>...</RESPOSIBILITY>
+            <RESPOSIBILITY>гостевая роль</RESPOSIBILITY>
             <TOTALUSERS>NOT LIMITED</TOTALUSERS>
         </ROLE>
     </ROLES>
     <TECHSPEC>
-        <TYPE>Clean Architecture</TYPE>
         <DEVTOOLS>
             <DEV>Python</DEV>
             <DEV>Peewee ORM</DEV>
@@ -133,8 +123,6 @@
         <DBMS>
             <TITLE>PostgreSQL</TITLE>
             <VERSION>14.1</VERSION>
-            <REASONING>PostgreSQL - ...
-            </REASONING>
         </DBMS>
     </TECHSPEC>
 </ISSPECS>
